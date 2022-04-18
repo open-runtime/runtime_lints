@@ -27,7 +27,12 @@ jobs:
 
       - uses: dart-lang/setup-dart@v1.3
 
-      - name: Analyze example folder
-        run:
+      - name: Pub get in example/
+        working-directory: ./example
+        run: dart pub get
+      - name: Run analyze
+        working-directory: ./example
+        run: dart analyze
+        
 
 
