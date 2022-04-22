@@ -1,5 +1,5 @@
 name: runtime_lints
-description: Recommended linting/analysis rules for
+description: Recommended linting/analysis rules for OpenRuntime Github Organization
 version: 0.1.0
 homepage: https://github.com/open-runtime/runtime_lints
 repository: https://github.com/open-runtime/runtime_lints

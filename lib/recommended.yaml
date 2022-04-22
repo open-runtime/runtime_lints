@@ -1,8 +1,11 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
-  # Turn off the analyzer for generated code (borrowed from)
+  # Turn off the analyzer for generated code
   exclude:
+    # Open API generated files
+    - 'sdk/'
+
     # General generated files
     - '**/*.g.dart'
     - '**/*.gr.dart'
@@ -26,12 +29,9 @@ analyzer:
 # Set of linter rules which extend
 linter:
   rules:
-
-
     # Strong typing
     - avoid_annotating_with_dynamic
     - always_specify_types
 
     # Style
     - prefer_single_quotes
-    -

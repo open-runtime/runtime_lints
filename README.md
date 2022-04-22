@@ -41,7 +41,7 @@ dev_dependencies:
 2. Set the `include:` in your project's `analysis_options.yaml`. This will ensure you always use the latest version of the linters and analysis rules:
 
 ```yaml
-include: package:runtime_lints/analysis_options.yaml
+include: package:runtime_lints/recommended.yaml
 ```
 
 
@@ -77,7 +77,7 @@ class B {}
 To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
 
 ```yaml
-include: package:runtime_lints/analysis_options.yaml
+include: package:runtime_lints/recommended.yaml
 linter:
   rules:
     public_member_api_docs: false

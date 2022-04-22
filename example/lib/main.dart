@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // The code in this file (and all other dart files in the package) is
-// analyzed using the rules activated in `analysis_options.yaml`.
+// analyzed using the rules activated in `recommended.yaml`.
 
 // The following syntax deactivates a lint for the entire file:
 // ignore_for_file: avoid_renaming_method_parameters
