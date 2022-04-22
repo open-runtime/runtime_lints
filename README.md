@@ -10,7 +10,8 @@ This package provides lint + static analysis rules for Dart and Flutter which ar
 
 ## Inspiration
 
-There are a lot of community driven linting efforts:
+There are a lot of community driven efforts to create a recommended set of linting rules. Their work inspired this
+repository.
 * [lints - from dart team][pub_lints]
 * [flutter_lints - from dart team][pub_flutter_lints]
 * [lint - community driven strict rules][pub_lint]
@@ -99,7 +100,7 @@ To indicate your project is using `runtime_lints` →
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_badge_link]: https://opensource.org/licenses/MIT
 [ci_badge_link]: https://github.com/open-runtime/runtime_lints/actions
-[pub_badge]: https://pub.dev/packages/runtime_lints
+[pub_badge]: https://img.shields.io/pub/v/runtime_lints.svg
 [pub_badge_link]: https://pub.dev/packages/runtime_lints
 
 [pub_import_lint]: https://pub.dev/packages/import_lint
