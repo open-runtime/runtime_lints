@@ -15,7 +15,7 @@ repository.
 * [lints - from dart team][pub_lints]
 * [flutter_lints - from dart team][pub_flutter_lints]
 * [lint - community driven strict rules][pub_lint]
-* [import lint][pub_import_lint]
+* [import_lint][pub_import_lint]
 * [very_good_analysis][pub_very_good_analysis]
 * [pedantic - DEPRECATED][pub_pedantic]
 
@@ -35,7 +35,7 @@ to prevent users of your library from being forced to download `runtime_lints`:
 
 ```yaml
 dev_dependencies:
-  runtime_lints: ^0.1.0
+  runtime_lints: ^0.3.0
 ```
 
 2. Set the `include:` in your project's `analysis_options.yaml`. This will ensure you always use the latest version of the linters and analysis rules:
@@ -49,7 +49,19 @@ include: package:runtime_lints/recommended.yaml
 
 There may be cases where specific lint rules are undesirable. Lint rules can be suppressed at the line, file, or project level.
 
-An example use case for suppressing lint rules at the file level is suppressing the `prefer_const_constructors` in order to achieve 100% code coverage. This is due to the fact that const constructors are executed before the tests are run, resulting in no coverage collection.
+An example use case for suppressing lint rules at the file level is suppressing the `prefer_const_constructors` in order 
+to achieve 100% code coverage. This is due to the fact that const constructors are executed before the tests are run, 
+resulting in no coverage collection.
+
+> :warning: **A Word of Caution:** Linter rules are designed to keep consistent style and prevent developers from making easy-to-identify mistakes. While 
+it is not uncommon to make linting rules restrictive to over-communicate to developers about potential risks, this can
+get out of hand quickly. CI/CD could be used to enforce linting guidelines (i.e. with a `dart analyze` command), but if 
+this is set up as a merge condition for your repository, you may find that you would suppress otherwise useful rules just
+to "pass the merge checks". This can cause repositories to devolve into a spaghetti code mess of ignore rules that you see below. 
+> 
+> It's important to weigh the options of selecting linter rules for your organization/team and deciding how to enforce 
+them. 
+
 
 ### Line Level
 

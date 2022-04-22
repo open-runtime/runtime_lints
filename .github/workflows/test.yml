@@ -7,6 +7,8 @@ name: Test
 
 on:
   push:
+    branches:
+      - *
 
 jobs:
   publish_dry_run:
@@ -33,6 +35,3 @@ jobs:
       - name: Run analyze
         working-directory: ./example
         run: dart analyze
-        
-
-
