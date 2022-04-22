@@ -1,0 +1,37 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # Turn off the analyzer for generated code (borrowed from)
+  exclude:
+    # General generated files
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
+
+    # Flutter
+    - 'lib/generated_plugin_registrant.dart'
+
+    # mockito
+    - '*.mocks.dart'
+    - '**/*.mocks.dart'
+
+    # freezed
+    - '**/*.freezed.dart'
+
+    # protobuf
+    - '**/*.pb.dart'
+
+    # test_coverage
+    - test/.test_coverage.dart
+
+# Set of linter rules which extend
+linter:
+  rules:
+
+
+    # Strong typing
+    - avoid_annotating_with_dynamic
+    - always_specify_types
+
+    # Style
+    - prefer_single_quotes
+    -
