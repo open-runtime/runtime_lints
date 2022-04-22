@@ -6,8 +6,7 @@
 
 ---
 
-This package provides lint + static analysis rules for Dart and Flutter which are used at [Open Runtime][open_runtime_github]. 
-The goal of this repo is to standardize development practices across our organization.
+This package provides lint + static analysis rules for Dart and Flutter which are used internally on all `open-runtime` repositories which power the [Runtime.Dev platform][runtime_link].
 
 ## Inspiration
 
@@ -99,8 +98,6 @@ To indicate your project is using `runtime_lints` →
 [badge_link]: https://pub.dev/packages/runtime_lints
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_badge_link]: https://opensource.org/licenses/MIT
-[logo_black]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_black.png#gh-light-mode-only
-[logo_white]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_white.png#gh-dark-mode-only
 [ci_badge_link]: https://github.com/open-runtime/runtime_lints/actions
 [pub_badge]: https://pub.dartlang.org/packages/runtime_lints
 [pub_badge_link]: https://pub.dartlang.org/packages/runtime_lints
@@ -111,3 +108,7 @@ To indicate your project is using `runtime_lints` →
 [pub_flutter_lints]: https://pub.dev/packages/flutter_lints
 [pub_pedantic]: https://pub.dev/packages/lints
 [pub_very_good_analysis]: https://pub.dartlang.org/packages/very_good_analysis
+
+
+[open_runtime_github]: https://github.com/open-runtime
+[runtime_link]: https://runtime.dev
