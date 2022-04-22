@@ -99,8 +99,8 @@ To indicate your project is using `runtime_lints` →
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_badge_link]: https://opensource.org/licenses/MIT
 [ci_badge_link]: https://github.com/open-runtime/runtime_lints/actions
-[pub_badge]: https://pub.dartlang.org/packages/runtime_lints
-[pub_badge_link]: https://pub.dartlang.org/packages/runtime_lints
+[pub_badge]: https://pub.dev/packages/runtime_lints
+[pub_badge_link]: https://pub.dev/packages/runtime_lints
 
 [pub_import_lint]: https://pub.dev/packages/import_lint
 [pub_lint]: https://pub.dev/packages/lint
