@@ -1,6 +1,9 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  # Static analysis
+  language:
+
   # Turn off the analyzer for generated code
   exclude:
     # Open API generated files
@@ -29,9 +32,5 @@ analyzer:
 # Set of linter rules which extend
 linter:
   rules:
-    # Strong typing
-    - avoid_annotating_with_dynamic
-    - always_specify_types
-
-    # Style
+    # Style rules
     - prefer_single_quotes
