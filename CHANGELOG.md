@@ -1,11 +1,6 @@
 ## 0.4.0
 
-Removed lints that were noisy
-- `avoid_annotating_with_dynamic`
-- `always_specify_types`
-
-This will allow our org to start fresh with a clean set of recommended
-lints (from `flutter_lints` and `lints`) that we can add to
+- Updated to `flutter_lints: ^2.0.1`
 
 ## 0.3.0
 
