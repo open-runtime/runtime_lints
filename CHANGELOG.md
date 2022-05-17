@@ -1,3 +1,7 @@
+## 0.4.0
+
+- Updated to `flutter_lints: ^2.0.1`
+
 ## 0.3.0
 
 - Updated Github actions test workflow to not run on tags
