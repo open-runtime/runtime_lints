@@ -2,7 +2,7 @@
 
 [![pub package][pub_badge]][pub_badge_link]
 [![License: MIT][license_badge]][license_badge_link]
-[![style: very good analysis][badge]][badge_link]
+[![style: runtime lints][badge]][badge_link]
 
 ---
 
